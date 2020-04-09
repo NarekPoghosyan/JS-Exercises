@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <link rel='stylesheet' href='css/style.css'>
+        <title>Calculator Programm</title>
+    </head>
+    <body>
+        <div class='container'>
+            <div class="button_cont nerqev">Calculate Programm</div>
+            </div>
+        <form>
+            <div id='hashvark'>
+            </div>
+            <div class='tox1'>
+                <button  onclick="insert(event, '7')" class='taracq'>7 </button>
+                <button  onclick="insert(event, '8')" class='taracq'>8</button>
+                <button  onclick="insert(event, '9')" class='taracq'>9</button>
+                <button  onclick="insert(event, '/')" class='taracq'>/</button>
+            </div>
+            <div class='tox2'>
+                <button  onclick="insert(event, '4')" class='taracq'>4</button>
+                <button  onclick="insert(event, '5')" class='taracq'>5</button>
+                <button  onclick="insert(event, '6')" class='taracq'>6</button>
+                <button  onclick="insert(event, '*')" class='taracq'>*</button>
+            </div>
+            <div class='tox3'>
+                <button  onclick="insert(event, '1')" class='taracq'>1</button>
+                <button  onclick="insert(event, '2')" class='taracq'>2</button>
+                <button  onclick="insert(event, '3')" class='taracq'>3</button>
+                <button  onclick="insert(event, '-')" class='taracq'>-</button>
+            </div>
+            <div class='tox4'>
+                <button  onclick="insert(event, '0')" class='taracq'>0</button>
+                <button  onclick="insert(event, '.')" class='taracq zazor'>.</button>
+                <button  onclick="clean(event)" class='taracq zazor'>C</button>
+                <button  onclick="equal(event)" id='havasarum' class='taracq poqr'>=</button>
+                <button  onclick="insert(event, '+')" class='taracq ners'>+</button>
+            </div>
+        </form>
+        <div class='ajiparent'>
+        <div   id='qayler'>
+        </div>
+        </div>
+        <div class='time'>
+
+        </div>
+        <div class='time'>
+            
+        </div>
+        <script src='js/script.js'></script>
+    </body>
+</html>

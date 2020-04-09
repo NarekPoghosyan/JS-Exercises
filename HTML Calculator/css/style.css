@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 45px;
+    color:black;
+    margin: 0;
+    padding: 0;
+    background: url(../images/abstract-black_00281837.jpg) no-repeat;
+    background-size: cover;
+}
+
+#hashvark {
+    width: 420px;
+    height: 60px;
+    background: rgb(165, 198, 223);
+    border-radius: 15px;
+    margin: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+
+.tox1  {
+    display:block;
+    margin: 10px;
+}
+
+.tox2 {
+    display:block;
+    margin: 10px;
+}
+
+.tox3 {
+    display:block;
+    margin: 10px;
+}
+
+.tox4 {
+    display:block;
+    margin: 10px;
+}
+
+button {
+    color:white;
+    height: 80px;
+    width: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: 1px solid rgba(137, 202, 255, 0.5);
+    font-weight:lighter;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+form  {
+    border: 1px solid gray;
+    position: absolute;
+    border-radius: 21px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.taracq {
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.zazor {
+    width: 42px;
+}
+
+.ners {
+    width: 100px;
+}
+
+.poqr {
+    width: 99px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nerqev {
+    margin: 20px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.nerqev:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.ajiparent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#qayler {
+    margin:30px;
+    width: 200px;
+    font-size:22px;
+    padding:7px;
+    height: 300px;
+    background-color: rgb(172, 205, 243);
+    border-radius: 20px;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+.time {
+    color: rgb(172, 205, 243);
+    margin: 50px;
+}
+
